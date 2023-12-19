@@ -1,0 +1,27 @@
+.navbar ul {
+    display: flex;
+}
+.navbar li {
+    font-size: 1.2rem;
+    font-weight: 400;
+    list-style-type: none;
+    cursor: pointer;
+}
+@media (max-width:600px) {
+    .navbar ul {
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+    .navbar li {
+        color: var(--veryDarkBlue);
+    }
+}
+@media (min-width:600px) {
+    .navbar ul {
+        list-style-type: none;
+        gap: 2rem;
+    }
+    .navbar li {
+        color: var(--darkGrayishBlue);
+    }
+}

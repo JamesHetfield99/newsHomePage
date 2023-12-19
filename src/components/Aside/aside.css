@@ -1,0 +1,14 @@
+.aside-container {
+    background-color: var(--veryDarkBlue);
+    padding: 1.5rem 1rem;
+}
+
+.aside-container > span {
+    color: var(--softOrange);
+    font-weight: 800;
+    font-size: var(--fs-l);
+}
+.aside-news-wrapper {
+    display: grid;
+    gap: 1.5rem;
+}
