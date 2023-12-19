@@ -2,11 +2,20 @@
     background-color: var(--veryDarkBlue);
     padding: 1.5rem 1rem;
 }
-
 .aside-container > span {
     color: var(--softOrange);
     font-weight: 800;
     font-size: var(--fs-l);
+}
+@media (min-width:768px) {
+    .aside-container {
+        display: grid;
+        align-content: center;
+        padding-left: 2rem;
+    }
+    .aside-container > span {
+        margin-bottom: 2rem;
+    }
 }
 .aside-news-wrapper {
     display: grid;
